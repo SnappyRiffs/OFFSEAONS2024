@@ -3,6 +3,9 @@ public class something{
 	
 	}
 	public int idk = 255;
+	public something(int number){
+		idk = number;
+	}
 	public void setValue(int val){
 		this.idk = val;
 	}

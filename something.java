@@ -1,14 +1,13 @@
 public class something{
-	public static void main(String[] args){
-		System.out.println(getValue());
-
+	public int idk = 255;
+	public something(int idk){
+		this.idk = idk;
 	}
-	public static int idk = 255;
-	public something(int number){
-		idk = number;
+	public something(){
+		this.idk = 0;
 	}
-	public static void setValue(int val){
-		idk = val;
+	public void setValue(int val){
+		this.idk = val;
 	}
 	public static int getValue(){
 		return idk;

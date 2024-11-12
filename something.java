@@ -4,5 +4,6 @@ public class something{
 		System.out.println((char) 0x21); //hex works too
 		System.out.println((char) 32); 
 		System.out.println((char) 0b100001); //binary works too
+		System.out.println((char) 040); // octal works too
 	}
 }
